@@ -50,7 +50,7 @@ function speak(){
     }
     var selectedOption = voiceSelect.selectedOptions[0].getAttribute('data-name');
     //var selectedOption = "Spanish(Spain)";
-    var selectedOption = "English_(Great_Britain)";
+    //var selectedOption = "English_(Great_Britain)";
     for(i = 0; i < voices.length ; i++) {
       if(voices[i].name === selectedOption) {
         utterThis.voice = voices[i];
